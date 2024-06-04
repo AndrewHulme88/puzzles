@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.shapes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.shape {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: move;
+  margin: 10px;
+}
+
+.square {
+  background-color: red;
+}
+
+.circle {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.triangle {
+  background-color: green;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+}
+
+.link-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.link-box a {
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+}
