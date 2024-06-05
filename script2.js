@@ -8,8 +8,8 @@ squares.forEach(square => {
     });
 
     square.addEventListener('dragend', (e) => {
-        e.target.style.top = `${e.clientY}px`;
-        e.target.style.left = `${e.clientX}px`;
+        e.target.style.top = '';
+        e.target.style.left = '';
     });
 });
 
